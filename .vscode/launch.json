@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///D:/c/projet/openclassroom/soutenance%20livrable/P3_Soule_Saidou/P3_soule_saidou/index.html",
+            "url": "file:///D:/c/projet/openclassroom/soutenance%20livrable/P3_Soule_Saidou/P3_soule_saidou_projet3/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

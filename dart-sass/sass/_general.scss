@@ -1,0 +1,23 @@
+body{
+    max-width: 750px;
+    margin: auto;
+    border: solid black 2px;
+}
+
+nav{
+    width: 100%;
+    box-shadow: 0px 2px 13px -8px;
+    background: $couleur-de-navbar;
+}
+
+.navbar{
+    text-align: center;
+    margin: auto;
+}
+
+.img-nav{
+    justify-items: center;
+    width: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

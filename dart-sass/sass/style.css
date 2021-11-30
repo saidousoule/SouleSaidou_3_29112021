@@ -4,6 +4,7 @@ body {
   border: solid black 2px;
 }
 
+/*----------NAVBAR-------------*/
 nav {
   width: 100%;
   -webkit-box-shadow: 0px 2px 13px -8px;
@@ -29,7 +30,11 @@ nav {
     width: 100%;
     -webkit-box-shadow: 0px 2px 13px -8px;
             box-shadow: 0px 2px 13px -8px;
-    
+  }
+  body {
+    max-width: 100%;
+    margin: auto;
+    border: solid black 2px;
   }
 }
 /*# sourceMappingURL=style.css.map */

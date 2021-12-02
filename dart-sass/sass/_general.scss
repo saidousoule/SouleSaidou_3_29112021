@@ -85,3 +85,48 @@ nav{
     @include wrap;
 }
 
+/* --------------SECTION2----------------------*/
+
+.section2{
+    display: block;
+    justify-content: center; 
+    position: relative;
+    padding-bottom: 50px; 
+}
+
+#h2section2{
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.bloc-section2{
+    justify-content: center;
+    margin: auto;
+}
+
+.restaurant{
+    @include center-all;
+    @include bloc-fonctionnement;
+}
+
+.menu{
+    @include center-all;
+    @include bloc-fonctionnement;
+}
+
+.deguster-au-restaurant{
+    @include center-all;
+    @include bloc-fonctionnement;
+}
+
+.numerotation-fonctionnement{
+    @include fond-nbr;
+    position: absolute;
+    left: 40px;
+}
+
+.text-section2{
+    padding-left: 35px;
+}

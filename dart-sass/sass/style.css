@@ -96,6 +96,107 @@ nav {
       flex-wrap: wrap;
 }
 
+/* --------------SECTION2----------------------*/
+.section2 {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#h2section2 {
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.bloc-section2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.restaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 0px 25px;
+  -webkit-box-shadow: 0px 5px 10px -5px;
+          box-shadow: 0px 5px 10px -5px;
+  border: 0;
+  background: #f6f6f6;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 0px 25px;
+  -webkit-box-shadow: 0px 5px 10px -5px;
+          box-shadow: 0px 5px 10px -5px;
+  border: 0;
+  background: #f6f6f6;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.deguster-au-restaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 0px 25px;
+  -webkit-box-shadow: 0px 5px 10px -5px;
+          box-shadow: 0px 5px 10px -5px;
+  border: 0;
+  background: #f6f6f6;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.numerotation-fonctionnement {
+  border-radius: 20px;
+  background: #9356DC;
+  padding: 3px 7px;
+  position: absolute;
+  left: 40px;
+}
+
+.text-section2 {
+  padding-left: 35px;
+}
+
 /*pour tablette et desktop*/
 @media screen and (min-width: 751px) {
   nav {

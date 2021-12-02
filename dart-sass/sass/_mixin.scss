@@ -1,4 +1,14 @@
+/*centrer un élement dans sa box*/
 @mixin center {
         text-align: center;
         margin: auto;
+}
+
+/*aller à la ligne quand on fait du responsive*/
+@mixin wrap {
+        flex-wrap: wrap;
+}
+
+@mixin font {
+       font-family: 'Roboto', sans-serif;
 }

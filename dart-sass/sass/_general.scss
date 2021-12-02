@@ -53,5 +53,35 @@ nav{
 .text-button{
     @include center;
     background: $couleur2-section1;
+    padding-bottom: 50px;
+}
+
+.button-section1{
+    margin-top: 15px;
+    border-radius: 45px;
+    padding: 0px 25px;
+    box-shadow: 0px 5px 10px -5px;
+    border: 0;
+    background-image:linear-gradient( -195deg,#FF79DA,#9356DC );
+}
+
+.button-section1:hover{
+    opacity: 0.6;
+    box-shadow: 7px 9px 10px -5px;
+}
+
+.couleur-text-button{
+    color: $couleur-de-navbar;
+}
+
+#text-loca{
+    font-family: 'Roboto', sans-serif;
+}
+
+#h1section1{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    @include wrap;
 }
 

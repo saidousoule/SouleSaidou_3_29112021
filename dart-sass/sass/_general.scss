@@ -198,7 +198,6 @@ nav{
     font-size: 1em;
     margin-left: 3px;
     margin-bottom: 0px;
-    margin-top: 0;
     flex-wrap: nowrap;
 }
 
@@ -209,7 +208,9 @@ nav{
 
 .box-inside-2{
     display: flex;
-    
+    align-items: center;
+    justify-content: flex-end;
+    width: 225px;
 }
 
 /*------------------FOOTER---------------------*/

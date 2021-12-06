@@ -181,6 +181,7 @@ nav{
 
 .box-inside-card{
     display: flex;
+    justify-content: space-between;
 }
 
 .p-section3{
@@ -210,7 +211,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 225px;
+}
+
+.far{
+    padding-right: 20px;
 }
 
 /*------------------FOOTER---------------------*/

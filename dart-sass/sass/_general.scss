@@ -1,7 +1,6 @@
 body{
     max-width: 750px;
     margin: auto;
-    border: solid black 2px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -135,6 +134,10 @@ nav{
     background-color: $couleur-hover;
 }
 
+.fas:hover{
+    color: $couleur-primaire;
+}
+
 /*-------------------SECTION 3------------------*/
 
 .section3{
@@ -215,7 +218,20 @@ nav{
 
 .far{
     padding-right: 20px;
+    color: black;
+    
 }
+
+.far:hover{    
+    background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+    background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+
 
 /*------------------FOOTER---------------------*/
 

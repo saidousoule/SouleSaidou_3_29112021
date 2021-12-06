@@ -17,6 +17,18 @@
         text-align: center;
     }
 
+    .restaurant{
+        width: 20%;
+    }
+    
+    .menu{
+        width: 30%;
+    }
+    
+    .deguster-au-restaurant{
+        width: 40%;
+    }
+
 /*------------------SECTION3 DESKTOP----------------------*/
     .H2-section3{
         
@@ -50,5 +62,11 @@
         flex-wrap: nowrap;
         margin-top: 0;
     }
+
+    .footer{
+        text-align: center;
+    }
+
+   
     
 }

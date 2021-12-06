@@ -5,7 +5,6 @@
 body {
   max-width: 750px;
   margin: auto;
-  border: solid black 2px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -205,6 +204,10 @@ nav {
   background-color: #fff3fc;
 }
 
+.fas:hover {
+  color: #9356DC;
+}
+
 /*-------------------SECTION 3------------------*/
 .section3 {
   background: #f6f6f6;
@@ -304,6 +307,15 @@ nav {
 
 .far {
   padding-right: 20px;
+  color: black;
+}
+
+.far:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e72c83), to(#a742c6));
+  background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*------------------FOOTER---------------------*/
@@ -348,6 +360,15 @@ animation: load-end 200ms ease-out 1500ms both;*/
   #h2section2 {
     text-align: center;
   }
+  .restaurant {
+    width: 20%;
+  }
+  .menu {
+    width: 30%;
+  }
+  .deguster-au-restaurant {
+    width: 40%;
+  }
   /*------------------SECTION3 DESKTOP----------------------*/
   .H2-section3 {
     text-align: center;
@@ -381,6 +402,9 @@ animation: load-end 200ms ease-out 1500ms both;*/
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     margin-top: 0;
+  }
+  .footer {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

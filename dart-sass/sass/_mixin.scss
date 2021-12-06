@@ -37,3 +37,8 @@
         background: #9356DC;
         padding: 3px 7px;
         }
+
+@mixin image-page1{
+        width: 100%;
+        object-fit: cover;
+}

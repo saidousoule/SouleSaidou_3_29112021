@@ -1,7 +1,7 @@
 body{
     max-width: 750px;
     margin: auto;
-    /*border: solid black 2px;*/
+    border: solid black 2px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -131,9 +131,8 @@ nav{
 }
 
 .restaurant:hover, .deguster-au-restaurant:hover,.menu:hover{
-    opacity: 0.1;
-    box-shadow: 7px 9px 10px -5px; 
-    background-color: $couleur-primaire;
+    box-shadow: 7px 9px 10px -5px rgb (0,0,0,0.1); 
+    background-color: $couleur-hover;
 }
 
 /*-------------------SECTION 3------------------*/
@@ -166,6 +165,7 @@ nav{
 
 .card{
     display: block;
+    height: 80%;
     margin-left: 20px;
     margin-right: 20px;
     box-shadow: 0px 2px 13px -8px;
@@ -175,6 +175,7 @@ nav{
 
 .image-section3{
     width: 100%;
+    height: 75%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0; 
 }
@@ -223,8 +224,20 @@ nav{
     padding-bottom: 15px;
 }
 
+.contact{
+    text-decoration: none;
+    color: $couleur-de-navbar;
+}
 
+.logo-footer{
+    margin-top: 0px;
+    padding-top: 20px;
+    font-family: 'Shrikhand', cursive;
+}
 
+/*animation: pulse 0.75s ease-in infinite alternate;
+
+animation: load-end 200ms ease-out 1500ms both;*/
 
 
 

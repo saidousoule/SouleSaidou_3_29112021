@@ -204,7 +204,7 @@ nav {
   background-color: #fff3fc;
 }
 
-.fas:hover {
+.fa-mobile-alt:hover, .fa-ellipsis-v:hover, .fa-store:hover {
   color: #9356DC;
 }
 
@@ -320,7 +320,7 @@ nav {
   color: black;
 }
 
-.far:hover {
+.far:hover, .fa-heart:hover, .love:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#e72c83), to(#a742c6));
   background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
   -webkit-background-clip: text;

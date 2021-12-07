@@ -134,7 +134,7 @@ nav{
     background-color: $couleur-hover;
 }
 
-.fas:hover{
+.fa-mobile-alt:hover, .fa-ellipsis-v:hover, .fa-store:hover{
     color: $couleur-primaire;
 }
 
@@ -232,7 +232,7 @@ nav{
     
 }
 
-.far:hover{    
+.far:hover, .fa-heart:hover, .love:hover{    
     background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
     background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
     background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);

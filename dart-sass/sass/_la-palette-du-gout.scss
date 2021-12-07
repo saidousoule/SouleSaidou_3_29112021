@@ -34,7 +34,11 @@ body{
 }
 
 .text-entrees{
-    padding-left: 25px;
+    margin-bottom: 0;
+    border-bottom: 4px solid #99E2D0;
+    width: 50px;
+    margin-left: 25px;
+    padding-bottom: 5px;
 }
 
 .titreh1-icon{
@@ -46,3 +50,26 @@ body{
     padding-top: 35px;
 }
 
+.bloc-entrees{
+    display: flex;
+}
+
+.entrees1{
+background: $couleur-de-navbar;
+@include center-all;
+@include bloc-fonctionnement;
+position: relative;
+justify-content: space-between;
+}
+
+.h3entrees1{
+    margin: 0;
+    padding-top: 10px;
+    
+}
+
+.p-entrees1{
+    margin: 0;
+    padding-bottom: 10px;
+    
+}

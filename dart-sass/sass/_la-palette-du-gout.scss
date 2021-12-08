@@ -39,6 +39,7 @@ body{
     width: 50px;
     margin-left: 25px;
     padding-bottom: 5px;
+    padding-top: 15px;
 }
 
 .titreh1-icon{
@@ -80,13 +81,44 @@ width: 85%;
 }
 
 .icon-prix{
-    display: flex;
-}
-
-.fa-check-circle{
-    background: $couleur-tertiaire;
-    color: white;
+    
+    color: transparent;
     border-radius: 0px 15px 15px 0;
     padding: 23px;
-    justify-content: end;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0px) ;
+    }
+    to{
+        transform: translateX(25px);
+    }
+}
+
+.icon-prix:hover{
+    animation: slide reverse 0.2s;
+    display: flex;
+    background: $couleur-tertiaire;
+    
+}
+/*
+.fa-check-circle{
+    display: none;
+    color: transparent;  
+}*/
+
+.fa-check-circle:hover{
+    background: $couleur-tertiaire;
+    color: white;
+    transition: 0.5s;
+    transform: rotate(360deg);
+}
+
+.button2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
 }

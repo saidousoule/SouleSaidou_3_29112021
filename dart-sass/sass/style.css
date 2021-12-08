@@ -459,6 +459,7 @@ body {
   width: 50px;
   margin-left: 25px;
   padding-bottom: 5px;
+  padding-top: 15px;
 }
 
 .titreh1-icon {
@@ -523,18 +524,60 @@ body {
 }
 
 .icon-prix {
+  color: transparent;
+  border-radius: 0px 15px 15px 0;
+  padding: 23px;
+}
+
+@-webkit-keyframes slide {
+  from {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  to {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+}
+
+@keyframes slide {
+  from {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  to {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+}
+
+.icon-prix:hover {
+  animation: slide reverse 0.2s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background: #99E2D0;
 }
 
-.fa-check-circle {
+/*
+.fa-check-circle{
+    display: none;
+    color: transparent;  
+}*/
+.fa-check-circle:hover {
   background: #99E2D0;
   color: white;
-  border-radius: 0px 15px 15px 0;
-  padding: 23px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.button2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 40%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */

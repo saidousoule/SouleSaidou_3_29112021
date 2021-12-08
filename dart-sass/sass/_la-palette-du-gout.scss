@@ -60,6 +60,8 @@ background: $couleur-de-navbar;
 @include bloc-fonctionnement;
 position: relative;
 justify-content: space-between;
+padding-right: 0;
+width: 85%;
 }
 
 .h3entrees1{
@@ -73,3 +75,18 @@ justify-content: space-between;
     padding-bottom: 10px;    
 }
 
+.prix{
+    padding-right: 15px;
+}
+
+.icon-prix{
+    display: flex;
+}
+
+.fa-check-circle{
+    background: $couleur-tertiaire;
+    color: white;
+    border-radius: 0px 15px 15px 0;
+    padding: 23px;
+    justify-content: end;
+}

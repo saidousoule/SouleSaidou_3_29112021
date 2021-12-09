@@ -1,6 +1,8 @@
 /*pour tablette et desktop*/
 
 @media screen and (min-width:751px) {
+    
+
     nav{
         width: 100%;
         box-shadow: 0px 2px 13px -8px;
@@ -9,7 +11,7 @@
     body{
         max-width: 100%;
         margin: auto;
-        border: solid black 2px;
+        
     }
 /*-------------------------SECTION2 DESKTOP----------------------*/
 
@@ -67,6 +69,20 @@
         text-align: center;
     }
 
-   
-    
+/*-------------------PAGE DES MENUS-------------------*/
+    .image-page{
+        height: 255px;
+    }
+
+    .grand-titre{
+        text-align: center;
+    }
+
+    .titreh1-icon{
+        justify-content: center;
+    }  
+
+    .button2{
+        margin: 38%;
+    }
 }

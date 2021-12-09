@@ -42,11 +42,17 @@ nav{
     justify-content: center;        
     text-align: center;
     padding-bottom: 10px;
+    display: flex;
 }
 
-.fa-map-marker-alt:before {
+.fa-map-marker-alt{
     content: "\f3c5";
-    padding-right: 10px;
+    padding-right: 10px;  
+    padding-top: 15px;
+}
+
+.nom-location{
+    font-family: 'Roboto', sans-serif;
 }
 
 .text-button{

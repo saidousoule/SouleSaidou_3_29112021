@@ -49,11 +49,19 @@ nav {
           justify-content: center;
   text-align: center;
   padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.fa-map-marker-alt:before {
+.fa-map-marker-alt {
   content: "\f3c5";
   padding-right: 10px;
+  padding-top: 15px;
+}
+
+.nom-location {
+  font-family: 'Roboto', sans-serif;
 }
 
 .text-button {
@@ -364,7 +372,6 @@ animation: load-end 200ms ease-out 1500ms both;*/
   body {
     max-width: 100%;
     margin: auto;
-    border: solid black 2px;
   }
   /*-------------------------SECTION2 DESKTOP----------------------*/
   #h2section2 {
@@ -415,6 +422,21 @@ animation: load-end 200ms ease-out 1500ms both;*/
   }
   .footer {
     text-align: center;
+  }
+  /*-------------------PAGE DES MENUS-------------------*/
+  .image-page {
+    height: 255px;
+  }
+  .grand-titre {
+    text-align: center;
+  }
+  .titreh1-icon {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .button2 {
+    margin: 38%;
   }
 }
 
@@ -579,5 +601,15 @@ body {
   margin-left: 40%;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media screen and (min-width: 751px) {
+  .entrees1 {
+    width: 30%;
+  }
+  .text-entrees {
+    width: 5%;
+    margin-left: 35%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

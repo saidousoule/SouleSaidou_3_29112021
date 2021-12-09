@@ -2,6 +2,7 @@
 /*--------------couleur----------*/
 /*centrer un élement dans sa box*/
 /*aller à la ligne quand on fait du responsive*/
+/* -----------code pour cacher le loader spinner*-----------*/
 #hideMe {
   /* Firefox */
   -webkit-animation: cssAnimation 0s ease-in 5s forwards;

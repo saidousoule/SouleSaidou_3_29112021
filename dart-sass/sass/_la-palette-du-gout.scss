@@ -162,7 +162,7 @@ width: 85%;
 .h3entrees1{
     margin: 0;
     padding-top: 10px;
-    
+    font-size: 15px;
 }
 
 .p-entrees1{
@@ -171,7 +171,10 @@ width: 85%;
 }
 
 .prix{
-    padding-right: 15px;
+    position: absolute;
+    left: 70%;
+    padding-bottom: 0px;
+    bottom: 0px;
 }
 
 .icon-prix{

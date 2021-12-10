@@ -454,7 +454,7 @@ nav {
   color: #fff;
 }
 
-.fa-ellipsis-v, .fa-mobile-alt, .fa-store, .fa-bars {
+.fa-ellipsis-v, .fa-mobile-alt, .fa-store, .fa-bars, .fa-map-marker-alt {
   color: black;
 }
 
@@ -475,6 +475,33 @@ nav {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 2;
+}
+
+.fa-map-marker-alt:hover {
+  color: black;
+}
+
+.fa-check-circle {
+  color: transparent;
+}
+
+.fa-check-circle:hover {
+  background: #99E2D0;
+  color: white;
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-text-fill-color: white;
+}
+
+.i1 {
+  color: transparent;
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-text-fill-color: white;
 }
 
 /*------------------FOOTER---------------------*/
@@ -853,11 +880,10 @@ body {
   background: #99E2D0;
 }
 
-/*
-.fa-check-circle{
-    display: none;
-    color: transparent;  
-}*/
+.fa-check-circle {
+  display: none;
+}
+
 .fa-check-circle:hover {
   background: #99E2D0;
   color: white;

@@ -324,7 +324,7 @@ nav{
     color: $couleur-de-navbar;  
 }
 
-.fa-ellipsis-v, .fa-mobile-alt, .fa-store, .fa-bars{
+.fa-ellipsis-v, .fa-mobile-alt, .fa-store, .fa-bars, .fa-map-marker-alt {
     color: black;
 }
 
@@ -348,6 +348,30 @@ nav{
    -webkit-text-fill-color:transparent;
     z-index: 2;
 }
+
+.fa-map-marker-alt:hover{
+    color: black;
+}
+
+.fa-check-circle{
+    color: transparent;
+}
+
+.fa-check-circle:hover{
+    background: $couleur-tertiaire;
+    color: white;
+    transition: 2s;
+    transform: rotate(360deg);
+    -webkit-text-fill-color:white;
+}
+
+.i1{
+    color: transparent;
+    transition: 2s;
+    transform: rotate(360deg);
+    -webkit-text-fill-color:white;
+}
+
 
 
 /*------------------FOOTER---------------------*/

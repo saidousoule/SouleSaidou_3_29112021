@@ -568,9 +568,6 @@ animation: load-end 200ms ease-out 1500ms both;*/
   .image-page {
     height: 255px;
   }
-  .grand-titre {
-    text-align: center;
-  }
   .titreh1-icon {
     -webkit-box-pack: center;
         -ms-flex-pack: center;

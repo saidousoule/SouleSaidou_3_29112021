@@ -449,17 +449,32 @@ nav {
           justify-content: flex-end;
 }
 
-.far {
+.fas {
   padding-right: 20px;
+  color: #fff;
+}
+
+.fa-ellipsis-v, .fa-mobile-alt, .fa-store, .fa-bars {
   color: black;
 }
 
-.far:hover, .fa-heart:hover, .love:hover {
+.far {
+  padding-right: 20px;
+  color: black;
+  position: absolute;
+}
+
+.far:hover {
+  display: none;
+}
+
+.fas:hover, .fa-heart:hover, .love:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#e72c83), to(#a742c6));
   background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  z-index: 2;
 }
 
 /*------------------FOOTER---------------------*/
@@ -564,6 +579,24 @@ animation: load-end 200ms ease-out 1500ms both;*/
   .button2 {
     margin: 38%;
   }
+  .coeur1 {
+    padding-left: 290px;
+    padding-top: 35px;
+    padding-right: 0px;
+  }
+  .coeur3:hover {
+    padding-right: 20px;
+  }
+  .coeur4 {
+    padding-left: 290px;
+  }
+  .coeur6 {
+    padding-left: 246px;
+  }
+  .coeur5 {
+    padding-right: 20px;
+    padding-left: 246px;
+  }
 }
 
 .page1-html {
@@ -624,8 +657,42 @@ body {
 }
 
 .coeur1 {
-  padding-left: 70px;
+  padding-left: 270px;
   padding-top: 35px;
+}
+
+.coeur2 {
+  padding-right: 0px;
+  padding-left: 25px;
+  padding-top: 35px;
+}
+
+.coeur2:hover {
+  padding-right: 0px;
+  padding-left: 25px;
+  padding-top: 35px;
+}
+
+.coeur3 {
+  padding-right: 12px;
+  padding-left: 25px;
+  padding-top: 35px;
+}
+
+.coeur3:hover {
+  padding-right: 12px;
+  padding-left: 25px;
+  padding-top: 35px;
+}
+
+.coeur4 {
+  padding-right: 20px;
+  padding-left: 283px;
+}
+
+.coeur6 {
+  padding-right: 20px;
+  padding-left: 227px;
 }
 
 @-webkit-keyframes slideUp {

@@ -54,8 +54,42 @@ body{
 }
 
 .coeur1{
-    padding-left: 70px;
+    padding-left: 270px;
     padding-top: 35px;
+}
+
+.coeur2{
+    padding-right: 0px;
+    padding-left: 25px;
+    padding-top: 35px;
+}
+
+.coeur2:hover{
+    padding-right: 0px;
+    padding-left: 25px;
+    padding-top: 35px;
+}
+
+.coeur3 {
+    padding-right: 12px;
+    padding-left: 25px;
+    padding-top: 35px;
+}
+
+.coeur3:hover {
+    padding-right: 12px;
+    padding-left: 25px;
+    padding-top: 35px;
+}
+
+.coeur4{
+    padding-right: 20px;
+    padding-left: 283px;
+}
+
+.coeur6{
+    padding-right: 20px;
+    padding-left: 227px;
 }
 
 @keyframes slideUp {

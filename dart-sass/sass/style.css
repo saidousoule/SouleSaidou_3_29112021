@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*--------------couleur----------*/
+/*$couleur-primaire: #9356DC;*/
 /*centrer un élement dans sa box*/
 /*aller à la ligne quand on fait du responsive*/
 /* -----------code pour cacher le loader spinner*-----------*/
@@ -56,8 +57,8 @@
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-box-shadow: 1px 5px 2px #9356DC;
-            box-shadow: 1px 5px 2px #9356DC;
+    -webkit-box-shadow: 1px 5px 2px blue;
+            box-shadow: 1px 5px 2px blue;
   }
   50% {
     -webkit-transform: rotate(180deg);
@@ -77,8 +78,8 @@
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-box-shadow: 1px 5px 2px #9356DC;
-            box-shadow: 1px 5px 2px #9356DC;
+    -webkit-box-shadow: 1px 5px 2px blue;
+            box-shadow: 1px 5px 2px blue;
   }
   50% {
     -webkit-transform: rotate(180deg);
@@ -330,6 +331,7 @@ nav {
 
 .text-section2 {
   padding-left: 35px;
+  background: blue;
 }
 
 .restaurant:hover, .deguster-au-restaurant:hover, .menu:hover {
@@ -339,7 +341,7 @@ nav {
 }
 
 .fa-mobile-alt:hover, .fa-ellipsis-v:hover, .fa-store:hover {
-  color: #9356DC;
+  color: blue;
 }
 
 /*-------------------SECTION 3------------------*/
@@ -352,7 +354,7 @@ nav {
   margin-bottom: 0px;
   margin-top: 0px;
   padding-top: 20px;
-  padding-left: 10‒;
+  padding-left: 10px;
   padding-left: 40px;
 }
 
@@ -917,6 +919,8 @@ body {
     margin-left: 47%;
     padding-left: 20px;
     padding-right: 20px;
+    height: 45px;
+    color: white;
   }
 }
 /*# sourceMappingURL=style.css.map */

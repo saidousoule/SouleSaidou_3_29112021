@@ -335,8 +335,8 @@ nav {
 }
 
 .restaurant:hover, .deguster-au-restaurant:hover, .menu:hover {
-  -webkit-box-shadow: 7px 9px 10px -5px rgb 0, 0, 0/0.1;
-          box-shadow: 7px 9px 10px -5px rgb 0, 0, 0/0.1;
+  -webkit-box-shadow: 7px 9px 10px -5px;
+          box-shadow: 7px 9px 10px -5px;
   background-color: #fff3fc;
 }
 

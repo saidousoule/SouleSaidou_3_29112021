@@ -829,16 +829,28 @@ body {
   width: 85%;
 }
 
+.div-2element {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .h3entrees1 {
   margin: 0;
   padding-top: 10px;
-  font-size: 15px;
+  font-size: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .p-entrees1 {
   margin: 0;
   padding-bottom: 10px;
-  font-size: 13px;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .prix {
@@ -932,6 +944,11 @@ body {
   .coeur2:hover {
     padding-right: 19px;
     padding-left: 25px;
+    padding-top: 35px;
+  }
+  .coeur7:hover {
+    padding-right: 19px;
+    padding-left: 43px;
     padding-top: 35px;
   }
 }

@@ -908,7 +908,7 @@ body {
   display: inline-block;
   background: #99E2D0;
   animation: slide reverse 0.5s;
-  width: 120px;
+  width: 5%;
 }
 
 @-webkit-keyframes slide {

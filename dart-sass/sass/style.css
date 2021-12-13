@@ -330,10 +330,6 @@ nav {
   position: absolute;
 }
 
-.text-section2 {
-  padding-left: 35px;
-}
-
 .restaurant:hover, .deguster-au-restaurant:hover, .menu:hover {
   -webkit-box-shadow: 7px 9px 10px -5px;
           box-shadow: 7px 9px 10px -5px;

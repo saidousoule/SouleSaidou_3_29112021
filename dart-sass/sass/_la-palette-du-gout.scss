@@ -8,6 +8,7 @@
 
 body{
     position: relative;
+    margin: auto
 }
 
 .image-page{
@@ -34,7 +35,7 @@ body{
 
 .h1-page1{
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     font-family: 'Shrikhand', cursive;
     padding-left: 30px;
     padding-top: 25px;
@@ -161,13 +162,13 @@ display: flex;
 }
 
 .div-2element{
-    width: 85%;
+    width: 53%;
 }
 
 .h3entrees1{
     margin: 0;
     padding-top: 10px;
-    font-size: 17px;
+    font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; 
@@ -176,10 +177,10 @@ display: flex;
 .p-entrees1{
     margin: 0;
     padding-bottom: 10px;
-    font-size: 15px;   
+    font-size: 12px;   
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
 }
 
 .prix{
@@ -190,7 +191,8 @@ display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    white-space: nowrap;
+    white-space: nowrap; 
+    
 }
 
 .icon-prix{   

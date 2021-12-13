@@ -887,6 +887,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   white-space: nowrap;
+  width: 15%;
 }
 
 .icon-prix {
@@ -933,14 +934,6 @@ body {
   }
 }
 
-/*
-.icon-prix:hover{
-    animation: slide reverse 0.5s;
-    display: flex;
-    background: $couleur-tertiaire;
-    width: 80px;  
-}
-*/
 .fa-check-circle {
   color: white;
   width: 0;

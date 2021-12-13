@@ -171,7 +171,7 @@ display: flex;
     font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
 }
 
 .p-entrees1{
@@ -192,8 +192,10 @@ display: flex;
     justify-content: center;
     align-items: center;
     white-space: nowrap; 
-    
+    width: 15%;    
 }
+
+
 
 .icon-prix{   
     width: 0;
@@ -223,14 +225,7 @@ display: flex;
     }
 }
 
-/*
-.icon-prix:hover{
-    animation: slide reverse 0.5s;
-    display: flex;
-    background: $couleur-tertiaire;
-    width: 80px;  
-}
-*/
+
 .fa-check-circle{
     color: white;
     width: 0;  

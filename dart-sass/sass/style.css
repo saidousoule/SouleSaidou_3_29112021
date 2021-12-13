@@ -479,6 +479,29 @@ nav {
   z-index: 2;
 }
 
+.love:hover {
+  -webkit-animation: slide2 2s;
+          animation: slide2 2s;
+}
+
+@-webkit-keyframes slide2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .fa-map-marker-alt:hover {
   color: black;
 }
@@ -827,12 +850,11 @@ body {
           justify-content: space-between;
   padding-right: 0;
   width: 85%;
+  display: flex;
 }
 
 .div-2element {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  width: 85%;
 }
 
 .h3entrees1 {
@@ -854,16 +876,42 @@ body {
 }
 
 .prix {
-  position: absolute;
-  left: 70%;
-  padding-bottom: 0px;
-  bottom: 0px;
+  padding: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
 }
 
 .icon-prix {
+  width: 0;
   color: transparent;
   border-radius: 0px 15px 15px 0;
   padding: 23px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.entrees1:hover .icon-prix {
+  display: inline-block;
+  background: #99E2D0;
+  animation: slide reverse 0.5s;
+  width: 120px;
 }
 
 @-webkit-keyframes slide {
@@ -888,25 +936,28 @@ body {
   }
 }
 
-.icon-prix:hover {
-  animation: slide reverse 0.2s;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #99E2D0;
+/*
+.icon-prix:hover{
+    animation: slide reverse 0.5s;
+    display: flex;
+    background: $couleur-tertiaire;
+    width: 80px;  
 }
-
+*/
 .fa-check-circle {
-  display: none;
+  color: white;
+  width: 0;
 }
 
 .fa-check-circle:hover {
-  background: #99E2D0;
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
+  width: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .button2 {

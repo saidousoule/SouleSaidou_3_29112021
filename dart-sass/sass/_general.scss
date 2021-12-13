@@ -351,6 +351,21 @@ nav{
     z-index: 2;
 }
 
+.love:hover{
+    animation: slide2 2s;
+}
+
+@keyframes slide2{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
 .fa-map-marker-alt:hover{
     color: black;
 }

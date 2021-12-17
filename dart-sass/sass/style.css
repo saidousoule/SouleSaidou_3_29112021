@@ -733,6 +733,10 @@ body {
   padding-left: 283px;
 }
 
+.coeur5 {
+  left: 238px;
+}
+
 .coeur6 {
   padding-right: 20px;
   padding-left: 227px;
@@ -987,6 +991,12 @@ body {
   }
   .coeur2:hover {
     padding-left: 90px;
+  }
+  .coeur5 {
+    left: 281px;
+  }
+  .coeur5:hover {
+    left: 281px;
   }
   .coeur7:hover {
     padding-right: 19px;

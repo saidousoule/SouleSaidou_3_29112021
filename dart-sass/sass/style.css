@@ -548,9 +548,6 @@ nav {
   font-family: 'Shrikhand', cursive;
 }
 
-/*animation: pulse 0.75s ease-in infinite alternate;
-
-animation: load-end 200ms ease-out 1500ms both;*/
 /*pour tablette et desktop*/
 @media screen and (min-width: 751px) {
   nav {
@@ -620,11 +617,6 @@ animation: load-end 200ms ease-out 1500ms both;*/
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  .coeur1 {
-    padding-left: 290px;
-    padding-top: 35px;
-    padding-right: 0px;
   }
   .coeur3:hover {
     padding-right: 20px;
@@ -697,17 +689,25 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  max-width: 407px;
+  margin: auto;
 }
 
 .coeur1 {
   padding-left: 270px;
   padding-top: 35px;
+  position: absolute;
+  right: 7px;
+  left: 36px;
 }
 
 .coeur2 {
   padding-right: 0px;
   padding-left: 25px;
   padding-top: 35px;
+  position: absolute;
+  left: 281px;
 }
 
 .coeur2:hover {
@@ -977,19 +977,25 @@ body {
     height: 45px;
     color: white;
   }
-  .coeur3:hover {
-    padding-right: 19px;
-    padding-left: 25px;
+  .coeur1 {
+    padding-left: 335px;
     padding-top: 35px;
+    padding-right: 0px;
+  }
+  .coeur2 {
+    padding-left: 90px;
   }
   .coeur2:hover {
+    padding-left: 90px;
+  }
+  .coeur3:hover {
     padding-right: 19px;
     padding-left: 25px;
     padding-top: 35px;
   }
   .coeur7:hover {
     padding-right: 19px;
-    padding-left: 43px;
+    padding-left: 90px;
     padding-top: 35px;
   }
 }

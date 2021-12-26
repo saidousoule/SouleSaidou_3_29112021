@@ -354,6 +354,10 @@ nav {
   color: #9356DC;
 }
 
+.menu i.fa-ellipsis-v, .menu i.fa-bars {
+  padding-right: 7px;
+}
+
 .deguster-au-restaurant:hover i.fa-store {
   color: #9356DC;
 }

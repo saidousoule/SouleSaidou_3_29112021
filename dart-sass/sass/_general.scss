@@ -236,6 +236,10 @@ nav{
     color:$couleur-primaire;
 }
 
+.menu i.fa-ellipsis-v, .menu i.fa-bars{
+    padding-right: 7px;
+}
+
 .deguster-au-restaurant:hover i.fa-store {
     color:$couleur-primaire;
 }

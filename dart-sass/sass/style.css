@@ -346,6 +346,18 @@ nav {
   color: #fff;
 }
 
+.restaurant:hover i.fa-mobile-alt {
+  color: #9356DC;
+}
+
+.menu:hover i.fa-ellipsis-v, .menu:hover i.fa-bars {
+  color: #9356DC;
+}
+
+.deguster-au-restaurant:hover i.fa-store {
+  color: #9356DC;
+}
+
 .section2:hover .restaurant:hover .fa-mobile-alt:hover {
   color: #9356DC;
 }
@@ -727,7 +739,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  max-width: 407px;
+  max-width: 100%;
   margin: auto;
 }
 

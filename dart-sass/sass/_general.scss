@@ -228,6 +228,18 @@ nav{
     color: #fff;
 }
 
+.restaurant:hover i.fa-mobile-alt{
+    color:$couleur-primaire;
+}
+
+.menu:hover i.fa-ellipsis-v, .menu:hover i.fa-bars{
+    color:$couleur-primaire;
+}
+
+.deguster-au-restaurant:hover i.fa-store {
+    color:$couleur-primaire;
+}
+
 .section2:hover .restaurant:hover .fa-mobile-alt:hover{
     color:$couleur-primaire;
 }

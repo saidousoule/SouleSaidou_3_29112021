@@ -908,7 +908,8 @@ body {
 }
 
 .div-2element {
-  width: 53%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .h3entrees1 {
@@ -962,7 +963,7 @@ body {
   display: none;
 }
 
-.entrees1:hover .icon-prix {
+.bloc-entrees:hover .entrees1:hover .icon-prix {
   display: inline-block;
   background: #99E2D0;
   animation: slide reverse 0.5s;
@@ -996,15 +997,31 @@ body {
   width: 0;
 }
 
-.fa-check-circle:hover {
-  color: white;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  width: 0;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+.bloc-entrees .entrees1:hover .icon-prix i {
+  -webkit-animation: rotate 0.5s ease-in-out;
+          animation: rotate 0.5s ease-in-out;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(-270deg);
+            transform: rotate(-270deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(-270deg);
+            transform: rotate(-270deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
 }
 
 .button2 {

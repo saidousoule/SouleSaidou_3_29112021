@@ -174,7 +174,8 @@ display: flex;
 }
 
 .div-2element{
-    width: 53%;
+    width: 100%;
+    overflow: hidden;
 }
 
 .h3entrees1{
@@ -207,8 +208,6 @@ display: flex;
     width: 15%;    
 }
 
-
-
 .icon-prix{   
     width: 0;
     color: transparent;
@@ -220,13 +219,12 @@ display: flex;
     display: none;
 }
 
-.entrees1:hover .icon-prix{
+.bloc-entrees:hover .entrees1:hover .icon-prix{
     display: inline-block;
     background: $couleur-tertiaire;
     animation: slide reverse 0.5s;
     width: 5%;
 }
-
 
 @keyframes slide {
     from{
@@ -243,13 +241,19 @@ display: flex;
     width: 0;  
 }
 
-.fa-check-circle:hover{
-    color: white;
-    transition: 0.5s;
-    transform: rotate(360deg);
-    width: 0;  
-    animation-fill-mode: forwards; 
+.bloc-entrees .entrees1:hover .icon-prix i{
+   animation: rotate 0.5s ease-in-out;
 }
+
+@keyframes rotate{
+    0% {
+        transform: rotate(-270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
 
 .button2{
     margin-top: 50px;

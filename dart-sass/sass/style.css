@@ -966,7 +966,7 @@ body {
 .bloc-entrees:hover .entrees1:hover .icon-prix {
   display: inline-block;
   background: #99E2D0;
-  animation: slide reverse 0.5s;
+  animation: slide reverse 1s;
   width: 5%;
 }
 
@@ -995,6 +995,10 @@ body {
 .fa-check-circle {
   color: white;
   width: 0;
+}
+
+.bloc-entrees .entrees1:hover {
+  cursor: pointer;
 }
 
 .bloc-entrees .entrees1:hover .icon-prix i {

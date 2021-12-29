@@ -145,7 +145,6 @@ background: $couleur-de-navbar;
 position: relative;
 justify-content: space-between;
 padding-right: 0;
-width: 85%;
 display: flex;
 }
 
@@ -180,36 +179,41 @@ display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    white-space: nowrap; 
-    width: 15%;    
+    white-space: nowrap;     
 }
 
 .icon-prix{   
     width: 0;
     color: transparent;
     border-radius: 0px 15px 15px 0;
-    padding: 23px;
+    padding: 17px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    display: none;
+    margin-right: -40px;
+    
 }
 
 .bloc-entrees:hover .entrees1:hover .icon-prix{
+    
     display: inline-block;
     background: $couleur-tertiaire;
-    animation: slide reverse 1s;
+ /*   animation: slide reverse 1s;*/
     width: 5%;
+    margin-right: 0px;
+    transition: margin-right 0.5s; 
+      
 }
 
+/*
 @keyframes slide {
     from{
-        transform: translateX(0px) ;
+        transform: translateX(25px) ;
     }
     to{
-        transform: translateX(25px);
+        transform: translateX(0px);
     }
-}
+}*/
 
 
 .fa-check-circle{

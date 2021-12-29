@@ -773,33 +773,6 @@ body {
   display: inline-block;
 }
 
-/*
-.coeur3 {
-    padding-right: 12px;
-    padding-left: 38px;
-    padding-top: 35px;
-}
-
-.coeur3:hover {
-    padding-right: 12px;
-    padding-left: 38px;
-    padding-top: 35px;
-}
-
-.coeur4{
-    padding-right: 20px;
-    padding-left: 283px;
-}
-
-.coeur5{
-    left: 238px;
-}
-
-.coeur6{
-    padding-right: 20px;
-    padding-left: 227px;
-}
-*/
 @-webkit-keyframes slideUp {
   0% {
     -webkit-transform: translateY(0px);
@@ -818,6 +791,7 @@ body {
     opacity: 0;
   }
 }
+
 @keyframes slideUp {
   0% {
     -webkit-transform: translateY(0px);
@@ -907,7 +881,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 0;
-  width: 85%;
   display: flex;
 }
 
@@ -949,14 +922,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
   white-space: nowrap;
-  width: 15%;
 }
 
 .icon-prix {
   width: 0;
   color: transparent;
   border-radius: 0px 15px 15px 0;
-  padding: 23px;
+  padding: 17px;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -964,38 +936,28 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: none;
+  margin-right: -40px;
 }
 
 .bloc-entrees:hover .entrees1:hover .icon-prix {
   display: inline-block;
   background: #99E2D0;
-  animation: slide reverse 1s;
+  /*   animation: slide reverse 1s;*/
   width: 5%;
+  margin-right: 0px;
+  -webkit-transition: margin-right 0.5s;
+  transition: margin-right 0.5s;
 }
 
-@-webkit-keyframes slide {
-  from {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  to {
-    -webkit-transform: translateX(25px);
-            transform: translateX(25px);
-  }
-}
-
+/*
 @keyframes slide {
-  from {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  to {
-    -webkit-transform: translateX(25px);
-            transform: translateX(25px);
-  }
-}
-
+    from{
+        transform: translateX(25px) ;
+    }
+    to{
+        transform: translateX(0px);
+    }
+}*/
 .fa-check-circle {
   color: white;
   width: 0;
@@ -1084,19 +1046,5 @@ body {
     top: 40%;
     display: inline-block;
   }
-  /*
-    .coeur5{ 
-        left: 281px;
-    }
-
-    .coeur5:hover{
-        left: 281px;
-    }
-
-    .coeur7:hover {
-        padding-right: 19px;
-        padding-left: 90px;
-        padding-top: 35px;
-    }*/
 }
 /*# sourceMappingURL=style.css.map */

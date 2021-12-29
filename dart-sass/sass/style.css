@@ -882,6 +882,7 @@ body {
           justify-content: space-between;
   padding-right: 0;
   display: flex;
+  overflow: hidden;
 }
 
 .div-2element {
@@ -925,8 +926,9 @@ body {
 }
 
 .icon-prix {
-  width: 0;
+  width: 5px;
   color: transparent;
+  background: #99E2D0;
   border-radius: 0px 15px 15px 0;
   padding: 17px;
   text-align: center;
@@ -937,6 +939,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-right: -40px;
+  -webkit-transition: margin 1s;
+  transition: margin 1s;
 }
 
 .bloc-entrees:hover .entrees1:hover .icon-prix {
@@ -945,8 +949,8 @@ body {
   /*   animation: slide reverse 1s;*/
   width: 5%;
   margin-right: 0px;
-  -webkit-transition: margin-right 0.5s;
-  transition: margin-right 0.5s;
+  -webkit-transition: margin-right 1s;
+  transition: margin-right 1s;
 }
 
 /*

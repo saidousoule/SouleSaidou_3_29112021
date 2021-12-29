@@ -146,6 +146,7 @@ position: relative;
 justify-content: space-between;
 padding-right: 0;
 display: flex;
+overflow: hidden;
 }
 
 .div-2element{
@@ -183,14 +184,16 @@ display: flex;
 }
 
 .icon-prix{   
-    width: 0;
+    width: 5px;
     color: transparent;
+    background: $couleur-tertiaire;
     border-radius: 0px 15px 15px 0;
     padding: 17px;
     text-align: center;
     justify-content: center;
     align-items: center;
     margin-right: -40px;
+    transition: margin 1s; 
     
 }
 
@@ -201,8 +204,8 @@ display: flex;
  /*   animation: slide reverse 1s;*/
     width: 5%;
     margin-right: 0px;
-    transition: margin-right 0.5s; 
-      
+    transition: margin-right 1s; 
+    
 }
 
 /*

@@ -745,56 +745,61 @@ body {
   position: relative;
   max-width: 100%;
   margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .coeur1 {
-  padding-left: 270px;
-  padding-top: 35px;
+  color: black;
   position: absolute;
-  right: 7px;
-  left: 36px;
+  right: 16px;
+  top: 40%;
+  display: inline-block;
 }
 
 .coeur2 {
-  padding-right: 0px;
-  padding-left: 25px;
-  padding-top: 35px;
   position: absolute;
-  left: 281px;
+  right: 16px;
+  top: 40%;
+  display: inline-block;
 }
 
 .coeur2:hover {
-  padding-right: 0px;
-  padding-left: 25px;
-  padding-top: 35px;
+  color: black;
+  position: absolute;
+  right: 16px;
+  top: 40%;
+  display: inline-block;
 }
 
+/*
 .coeur3 {
-  padding-right: 12px;
-  padding-left: 38px;
-  padding-top: 35px;
+    padding-right: 12px;
+    padding-left: 38px;
+    padding-top: 35px;
 }
 
 .coeur3:hover {
-  padding-right: 12px;
-  padding-left: 38px;
-  padding-top: 35px;
+    padding-right: 12px;
+    padding-left: 38px;
+    padding-top: 35px;
 }
 
-.coeur4 {
-  padding-right: 20px;
-  padding-left: 283px;
+.coeur4{
+    padding-right: 20px;
+    padding-left: 283px;
 }
 
-.coeur5 {
-  left: 238px;
+.coeur5{
+    left: 238px;
 }
 
-.coeur6 {
-  padding-right: 20px;
-  padding-left: 227px;
+.coeur6{
+    padding-right: 20px;
+    padding-left: 227px;
 }
-
+*/
 @-webkit-keyframes slideUp {
   0% {
     -webkit-transform: translateY(0px);
@@ -813,7 +818,6 @@ body {
     opacity: 0;
   }
 }
-
 @keyframes slideUp {
   0% {
     -webkit-transform: translateY(0px);
@@ -1055,27 +1059,44 @@ body {
     height: 45px;
     color: white;
   }
+  .titreh1-icon {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .coeur1 {
-    padding-left: 335px;
-    padding-top: 35px;
-    padding-right: 0px;
+    color: black;
+    position: absolute;
+    right: 16px;
+    top: 40%;
+    display: inline-block;
   }
   .coeur2 {
-    padding-left: 90px;
+    position: absolute;
+    right: 16px;
+    top: 40%;
+    display: inline-block;
   }
   .coeur2:hover {
-    padding-left: 90px;
+    color: black;
+    position: absolute;
+    right: 16px;
+    top: 40%;
+    display: inline-block;
   }
-  .coeur5 {
-    left: 281px;
-  }
-  .coeur5:hover {
-    left: 281px;
-  }
-  .coeur7:hover {
-    padding-right: 19px;
-    padding-left: 90px;
-    padding-top: 35px;
-  }
+  /*
+    .coeur5{ 
+        left: 281px;
+    }
+
+    .coeur5:hover{
+        left: 281px;
+    }
+
+    .coeur7:hover {
+        padding-right: 19px;
+        padding-left: 90px;
+        padding-top: 35px;
+    }*/
 }
 /*# sourceMappingURL=style.css.map */

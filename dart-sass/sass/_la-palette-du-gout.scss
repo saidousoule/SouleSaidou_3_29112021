@@ -11,6 +11,13 @@ body{
     margin: auto
 }
 
+.section1-des-pages{
+    position: relative;
+    top: -40px;
+    background: white;
+    border-radius: 40px;
+}
+
 .image-page{
     @include image-page1;
     z-index: -1;

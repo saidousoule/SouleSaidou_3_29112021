@@ -697,6 +697,13 @@ body {
   margin: auto;
 }
 
+.section1-des-pages {
+  position: relative;
+  top: -40px;
+  background: white;
+  border-radius: 40px;
+}
+
 .image-page {
   width: 100%;
   -o-object-fit: cover;
